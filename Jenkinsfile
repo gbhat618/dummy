@@ -1,4 +1,4 @@
-node{
+node('ssh') {
     echo 'OK'
     sleep 2
     echo 'Done'
