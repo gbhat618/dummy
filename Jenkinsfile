@@ -90,15 +90,15 @@ pipeline {
     post {
         success {
             echo 'Build and deployment succeeded!'
-            mail to: 'team@example.com',
-                 subject: 'Jenkins Build Success',
-                 body: 'The build and deployment completed successfully.'
+            // mail to: 'team@example.com',
+            //      subject: 'Jenkins Build Success',
+            //      body: 'The build and deployment completed successfully.'
         }
         failure {
             echo 'Build or deployment failed!'
-            mail to: 'team@example.com',
-                 subject: 'Jenkins Build Failed',
-                 body: 'The build failed. Please check Jenkins logs for details.'
+            // mail to: 'team@example.com',
+            //      subject: 'Jenkins Build Failed',
+            //      body: 'The build failed. Please check Jenkins logs for details.'
         }
     }
 }
