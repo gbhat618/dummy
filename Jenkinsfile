@@ -1,4 +1,4 @@
-node('k8s') {
+node {
     echo 'OK'
     echo 'Done'
 }
